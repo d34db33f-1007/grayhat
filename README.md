@@ -15,6 +15,8 @@ So now you can easily use multiple keyword and extension filters with files size
 #### Basic Usage
 
 ```py
+from grayhat import Build, s3
+
 token = 'fill_ur_token'
 keywords = ['sql', 'data', '-html']
 extensions = ['bak', 'bac', 'dmp', 'dat']

@@ -39,7 +39,7 @@ god = s3(bless, 10).warfare()
 
 print(god[0])
 for tears in god[1:]:
-	print(tears['bid'], tears['file_url'], tears['file_size']) # 1st and 2nd methods
+  print(tears['bid'], tears['file_url'], tears['file_size']) # 1st and 2nd methods
   print(tears['bid'], tears['bucket'], tears['file_count']) # 3d method
 
 # "fid", "bucket", "filename", "file_path"] keys are also for methods 1 and 2.

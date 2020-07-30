@@ -47,7 +47,7 @@ for tears in god[1:]:
   print(tears['bid'], tears['file_url'], tears['file_size']) # 1st and 2nd methods
   print(tears['bid'], tears['bucket'], tears['file_count']) # 3d method
 
-# "fid", "bucket", "filename", "file_path" keys are also for methods 1 and 2.
+# ^ "fid", "bucket", "filename", "file_path" keys are also available for methods 1 and 2.
 
 # "kw" and "ext" are optional and theese must be list type. "var" is digit and is optional either.
 # you can get only 1000 results per one request with free plan account

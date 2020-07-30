@@ -52,7 +52,7 @@ for tears in god[1:]:
 # so "start" is for results index, and "stop" means count of results
 # e.q. page one: start = 0, stop = 999; page two: start = 999, stop = 999; and so on
 # you can exclude from search results unlimited count of queries
-# to do this just add them to excludes.txt file
+# to do this just add them to exclude.txt file
 # to exclude specific bucket add "-sbuc34682" to excludes
 # where "34682" is bucket id.
 ```

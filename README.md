@@ -36,8 +36,8 @@ god = s3(bless, 10).warfare()
 
 
 # "s3(bless).warfare()" returns list with each result as dictionary
-
 print(god[0])
+
 for tears in god[1:]:
   print(tears['bid'], tears['file_url'], tears['file_size']) # 1st and 2nd methods
   print(tears['bid'], tears['bucket'], tears['file_count']) # 3d method

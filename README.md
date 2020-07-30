@@ -19,17 +19,20 @@ token = 'fill_ur_token'
 keywords = ['sql', 'data', '-html']
 extensions = ['bak', 'bac', 'dmp', 'dat']
 
-# search files by keywords and file extensions and 100Mb minimum file size
+# search files by keywords and file extensions 
+# and 100Mb minimum file size
 bless = Build(token)
 bless = bless.Files(start=0, stop=998, kw=keywords, ext=extensions)
 god = s3(bless, var=100).warfare()
 
-# list all files from specific bucket defined by "b_id" and filter them by size and keyword
+# list all files from specific bucket defined 
+# by "b_id" and filter them by size and keyword
 bless = Build(token)
 bless = bless.Buckets(b_id=2456, stop=200, kw=['Full'])
 god = s3(bless, 100).warfare()
 
-# search all buckets by keyword for bugbounty or dely search and filter buckets with at least 10 files exposed
+# search all buckets by keyword for bugbounty or 
+# dely search and filter buckets with at least 10 files exposed
 bless = Build(token)
 bless = bless.Buckets(kw=keywords)
 god = s3(bless, 10).warfare()

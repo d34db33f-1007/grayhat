@@ -9,7 +9,7 @@ So now you can easily use multiple keyword and extension filters with files size
 
 #### Install
 
-* `git clone https://github.com/d34db33f-1007/grayhat.git'
+* `git clone https://github.com/d34db33f-1007/grayhat.git`
 * `cd grayhat && pip3 install -r requirements.txt`
 
 #### Basic Usage

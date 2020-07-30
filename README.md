@@ -3,8 +3,8 @@
 The author of this code **is not responsible** for any illegal actions. \
 For educational purposes only..
 
-This code requires an free account at grayhatwarfare.com
-I've also implemented small hack to avoid one of limitations for free plan users.
+This code requires an free account at grayhatwarfare.com \
+I've also implemented small hack to avoid one of limitations for free plan users. \
 So now you can easily use multiple keyword and extension filters with files size sorting while searching for files ;)
 
 #### Install

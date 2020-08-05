@@ -1,9 +1,9 @@
 ### Python library for grayhatwarfare.com with small hacks
 
-This code requires an free account at grayhatwarfare.com \
-I've also implemented small hack to avoid one of limitations for free plan users. \
+This code requires an account at grayhatwarfare.com \
+I've also implemented small hack to avoid one of API limitations. \
 So now you can easily use multiple keyword and extension filters with files size sorting while searching for files ;) \
-For full free account support check https://github.com/d34db33f-1007/grayhat2 which designed for only files search.
+For free account support check https://github.com/d34db33f-1007/grayhat2 which designed for only files search.
 
 #### Install
 

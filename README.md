@@ -2,7 +2,7 @@
 
 This code requires an account at grayhatwarfare.com \
 I've also implemented small hack to avoid one of API limitations. \
-So now you can easily use multiple keyword and extension filters with files size sorting while searching for files ;) \
+So now you can easily use multiple keyword and extension filters with files size sorting while searching for files. \
 For free account support check https://github.com/d34db33f-1007/grayhat2 which designed for only files search.
 
 #### Install

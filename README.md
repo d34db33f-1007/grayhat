@@ -48,8 +48,7 @@ for tears in god[1:]:
 # ^ "fid", "bucket", "filename", "file_path" keys are also available for methods 1 and 2.
 
 # "kw" and "ext" are optional and theese must be list type. "var" is digit and is optional either.
-# you can get only 1000 results per one request with free plan account
-# so "start" is for results index, and "stop" means count of results
+# "start" is for results index, and "stop" means count of results
 # e.q. page one: start = 0, stop = 999; page two: start = 999, stop = 999; and so on
 # you can exclude from search results unlimited count of queries
 # to do this just add them to exclude.txt file
